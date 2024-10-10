@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>Login &mdash; {{ config('app.name') }}</title>
+    <title>Login | {{ config('app.name') }}</title>
     @include('includes.style')
 </head>
 
@@ -29,7 +29,7 @@
                         @endif
                         @yield('content')
                         <div class="simple-footer">
-                            Copyright &copy; ANKH Digital {{ date('Y') }}
+                            Copyright &copy; SMK Gema Karya Bahana {{ date('Y') }}
                         </div>
                     </div>
                 </div>
